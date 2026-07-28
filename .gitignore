@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────
+#  TalentMind AI  ─  .gitignore
+# ─────────────────────────────────────────────
+
+# Environment
+.env
+.env.local
+.env.production
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Data
+data/uploads/*
+data/processed/*
+data/reports/*
+data/vector_db/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/reports/.gitkeep
+!data/vector_db/.gitkeep
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Docker
+.docker/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
